@@ -8,8 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		90C392B31BB136CA00D59B76 /* ChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C392B21BB136CA00D59B76 /* ChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		90C392B91BB136CA00D59B76 /* ChromeActivity.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90C392AD1BB136CA00D59B76 /* ChromeActivity.framework */; };
-		90C392C01BB136CA00D59B76 /* ChromeActivityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90C392BF1BB136CA00D59B76 /* ChromeActivityTests.swift */; };
 		90C392D21BB1371600D59B76 /* ARChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C392CA1BB1371600D59B76 /* ARChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90C392D31BB1371600D59B76 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C392CB1BB1371600D59B76 /* ARChromeActivity.m */; };
 		90C392D41BB1371600D59B76 /* ARChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392CC1BB1371600D59B76 /* ARChromeActivity.png */; };
@@ -20,23 +18,10 @@
 		90C392D91BB1371600D59B76 /* ARChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392D11BB1371600D59B76 /* ARChromeActivity~ipad.png */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		90C392BA1BB136CA00D59B76 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 90C392A41BB136CA00D59B76 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 90C392AC1BB136CA00D59B76;
-			remoteInfo = ChromeActivity;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		90C392AD1BB136CA00D59B76 /* ChromeActivity.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ChromeActivity.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90C392B11BB136CA00D59B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		90C392B21BB136CA00D59B76 /* ChromeActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromeActivity.h; sourceTree = "<group>"; };
-		90C392B81BB136CA00D59B76 /* ChromeActivityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ChromeActivityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		90C392BE1BB136CA00D59B76 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		90C392BF1BB136CA00D59B76 /* ChromeActivityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChromeActivityTests.swift; sourceTree = "<group>"; };
 		90C392CA1BB1371600D59B76 /* ARChromeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARChromeActivity.h; sourceTree = "<group>"; };
 		90C392CB1BB1371600D59B76 /* ARChromeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARChromeActivity.m; sourceTree = "<group>"; };
 		90C392CC1BB1371600D59B76 /* ARChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARChromeActivity.png; sourceTree = "<group>"; };
@@ -55,14 +40,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C392B51BB136CA00D59B76 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90C392B91BB136CA00D59B76 /* ChromeActivity.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -70,7 +47,6 @@
 			isa = PBXGroup;
 			children = (
 				90C392AF1BB136CA00D59B76 /* ChromeActivity */,
-				90C392BC1BB136CA00D59B76 /* ChromeActivityTests */,
 				90C392AE1BB136CA00D59B76 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -79,7 +55,6 @@
 			isa = PBXGroup;
 			children = (
 				90C392AD1BB136CA00D59B76 /* ChromeActivity.framework */,
-				90C392B81BB136CA00D59B76 /* ChromeActivityTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -98,23 +73,6 @@
 			isa = PBXGroup;
 			children = (
 				90C392B11BB136CA00D59B76 /* Info.plist */,
-			);
-			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		90C392BC1BB136CA00D59B76 /* ChromeActivityTests */ = {
-			isa = PBXGroup;
-			children = (
-				90C392BF1BB136CA00D59B76 /* ChromeActivityTests.swift */,
-				90C392BD1BB136CA00D59B76 /* Supporting Files */,
-			);
-			path = ChromeActivityTests;
-			sourceTree = "<group>";
-		};
-		90C392BD1BB136CA00D59B76 /* Supporting Files */ = {
-			isa = PBXGroup;
-			children = (
-				90C392BE1BB136CA00D59B76 /* Info.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -167,24 +125,6 @@
 			productReference = 90C392AD1BB136CA00D59B76 /* ChromeActivity.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		90C392B71BB136CA00D59B76 /* ChromeActivityTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 90C392C61BB136CA00D59B76 /* Build configuration list for PBXNativeTarget "ChromeActivityTests" */;
-			buildPhases = (
-				90C392B41BB136CA00D59B76 /* Sources */,
-				90C392B51BB136CA00D59B76 /* Frameworks */,
-				90C392B61BB136CA00D59B76 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				90C392BB1BB136CA00D59B76 /* PBXTargetDependency */,
-			);
-			name = ChromeActivityTests;
-			productName = ChromeActivityTests;
-			productReference = 90C392B81BB136CA00D59B76 /* ChromeActivityTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -195,9 +135,6 @@
 				ORGANIZATIONNAME = molabo;
 				TargetAttributes = {
 					90C392AC1BB136CA00D59B76 = {
-						CreatedOnToolsVersion = 6.4;
-					};
-					90C392B71BB136CA00D59B76 = {
 						CreatedOnToolsVersion = 6.4;
 					};
 				};
@@ -215,7 +152,6 @@
 			projectRoot = "";
 			targets = (
 				90C392AC1BB136CA00D59B76 /* ChromeActivity */,
-				90C392B71BB136CA00D59B76 /* ChromeActivityTests */,
 			);
 		};
 /* End PBXProject section */
@@ -234,13 +170,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C392B61BB136CA00D59B76 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -252,23 +181,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		90C392B41BB136CA00D59B76 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				90C392C01BB136CA00D59B76 /* ChromeActivityTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		90C392BB1BB136CA00D59B76 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 90C392AC1BB136CA00D59B76 /* ChromeActivity */;
-			targetProxy = 90C392BA1BB136CA00D59B76 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		90C392C11BB136CA00D59B76 /* Debug */ = {
@@ -390,36 +303,6 @@
 			};
 			name = Release;
 		};
-		90C392C71BB136CA00D59B76 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				GCC_PREPROCESSOR_DEFINITIONS = (
-					"DEBUG=1",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChromeActivityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Debug;
-		};
-		90C392C81BB136CA00D59B76 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(SDKROOT)/Developer/Library/Frameworks",
-					"$(inherited)",
-				);
-				INFOPLIST_FILE = ChromeActivityTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -437,15 +320,6 @@
 			buildConfigurations = (
 				90C392C41BB136CA00D59B76 /* Debug */,
 				90C392C51BB136CA00D59B76 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		90C392C61BB136CA00D59B76 /* Build configuration list for PBXNativeTarget "ChromeActivityTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				90C392C71BB136CA00D59B76 /* Debug */,
-				90C392C81BB136CA00D59B76 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
