@@ -11,17 +11,17 @@
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>D516DA33D133469EF03AFE27B6D42968BE38FC8D</key>
-		<string>github.com:alextrob/ARChromeActivity.git</string>
+		<string>github.com:morizotter/ARChromeActivity.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>ChromeActivityDemo.xcodeproj</string>
+	<string>ChromeActivityDemo/ChromeActivityDemo.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>D516DA33D133469EF03AFE27B6D42968BE38FC8D</key>
-		<string>../..</string>
+		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>github.com:alextrob/ARChromeActivity.git</string>
+	<string>github.com:morizotter/ARChromeActivity.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
