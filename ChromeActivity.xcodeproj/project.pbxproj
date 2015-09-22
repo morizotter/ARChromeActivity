@@ -10,12 +10,7 @@
 		90C392B31BB136CA00D59B76 /* ChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C392B21BB136CA00D59B76 /* ChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90C392D21BB1371600D59B76 /* ARChromeActivity.h in Headers */ = {isa = PBXBuildFile; fileRef = 90C392CA1BB1371600D59B76 /* ARChromeActivity.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		90C392D31BB1371600D59B76 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C392CB1BB1371600D59B76 /* ARChromeActivity.m */; };
-		90C392D41BB1371600D59B76 /* ARChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392CC1BB1371600D59B76 /* ARChromeActivity.png */; };
-		90C392D51BB1371600D59B76 /* ARChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392CD1BB1371600D59B76 /* ARChromeActivity@2x.png */; };
-		90C392D61BB1371600D59B76 /* ARChromeActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392CE1BB1371600D59B76 /* ARChromeActivity@2x~ipad.png */; };
-		90C392D71BB1371600D59B76 /* ARChromeActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392CF1BB1371600D59B76 /* ARChromeActivity@3x.png */; };
-		90C392D81BB1371600D59B76 /* ARChromeActivity@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392D01BB1371600D59B76 /* ARChromeActivity@3x~ipad.png */; };
-		90C392D91BB1371600D59B76 /* ARChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392D11BB1371600D59B76 /* ARChromeActivity~ipad.png */; };
+		90C392F31BB13BF400D59B76 /* ARChromeActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90C392F21BB13BF400D59B76 /* ARChromeActivity.bundle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,12 +19,7 @@
 		90C392B21BB136CA00D59B76 /* ChromeActivity.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ChromeActivity.h; sourceTree = "<group>"; };
 		90C392CA1BB1371600D59B76 /* ARChromeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARChromeActivity.h; sourceTree = "<group>"; };
 		90C392CB1BB1371600D59B76 /* ARChromeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARChromeActivity.m; sourceTree = "<group>"; };
-		90C392CC1BB1371600D59B76 /* ARChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARChromeActivity.png; sourceTree = "<group>"; };
-		90C392CD1BB1371600D59B76 /* ARChromeActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@2x.png"; sourceTree = "<group>"; };
-		90C392CE1BB1371600D59B76 /* ARChromeActivity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@2x~ipad.png"; sourceTree = "<group>"; };
-		90C392CF1BB1371600D59B76 /* ARChromeActivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@3x.png"; sourceTree = "<group>"; };
-		90C392D01BB1371600D59B76 /* ARChromeActivity@3x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@3x~ipad.png"; sourceTree = "<group>"; };
-		90C392D11BB1371600D59B76 /* ARChromeActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity~ipad.png"; sourceTree = "<group>"; };
+		90C392F21BB13BF400D59B76 /* ARChromeActivity.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ARChromeActivity.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,14 +70,9 @@
 		90C392C91BB1371600D59B76 /* ARChromeActivity */ = {
 			isa = PBXGroup;
 			children = (
+				90C392F21BB13BF400D59B76 /* ARChromeActivity.bundle */,
 				90C392CA1BB1371600D59B76 /* ARChromeActivity.h */,
 				90C392CB1BB1371600D59B76 /* ARChromeActivity.m */,
-				90C392CC1BB1371600D59B76 /* ARChromeActivity.png */,
-				90C392CD1BB1371600D59B76 /* ARChromeActivity@2x.png */,
-				90C392CE1BB1371600D59B76 /* ARChromeActivity@2x~ipad.png */,
-				90C392CF1BB1371600D59B76 /* ARChromeActivity@3x.png */,
-				90C392D01BB1371600D59B76 /* ARChromeActivity@3x~ipad.png */,
-				90C392D11BB1371600D59B76 /* ARChromeActivity~ipad.png */,
 			);
 			path = ARChromeActivity;
 			sourceTree = SOURCE_ROOT;
@@ -161,12 +146,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				90C392D91BB1371600D59B76 /* ARChromeActivity~ipad.png in Resources */,
-				90C392D61BB1371600D59B76 /* ARChromeActivity@2x~ipad.png in Resources */,
-				90C392D51BB1371600D59B76 /* ARChromeActivity@2x.png in Resources */,
-				90C392D81BB1371600D59B76 /* ARChromeActivity@3x~ipad.png in Resources */,
-				90C392D41BB1371600D59B76 /* ARChromeActivity.png in Resources */,
-				90C392D71BB1371600D59B76 /* ARChromeActivity@3x.png in Resources */,
+				90C392F31BB13BF400D59B76 /* ARChromeActivity.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
