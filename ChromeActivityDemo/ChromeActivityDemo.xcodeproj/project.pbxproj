@@ -9,12 +9,7 @@
 /* Begin PBXBuildFile section */
 		90C392761BB131BE00D59B76 /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 90C392751BB131BE00D59B76 /* Launch Screen.xib */; };
 		90C392E31BB1383900D59B76 /* ARChromeActivity.m in Sources */ = {isa = PBXBuildFile; fileRef = 90C392DC1BB1383900D59B76 /* ARChromeActivity.m */; };
-		90C392E41BB1383900D59B76 /* ARChromeActivity.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392DD1BB1383900D59B76 /* ARChromeActivity.png */; };
-		90C392E51BB1383900D59B76 /* ARChromeActivity@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392DE1BB1383900D59B76 /* ARChromeActivity@2x.png */; };
-		90C392E61BB1383900D59B76 /* ARChromeActivity@2x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392DF1BB1383900D59B76 /* ARChromeActivity@2x~ipad.png */; };
-		90C392E71BB1383900D59B76 /* ARChromeActivity@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392E01BB1383900D59B76 /* ARChromeActivity@3x.png */; };
-		90C392E81BB1383900D59B76 /* ARChromeActivity@3x~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392E11BB1383900D59B76 /* ARChromeActivity@3x~ipad.png */; };
-		90C392E91BB1383900D59B76 /* ARChromeActivity~ipad.png in Resources */ = {isa = PBXBuildFile; fileRef = 90C392E21BB1383900D59B76 /* ARChromeActivity~ipad.png */; };
+		90C392F11BB13AF100D59B76 /* ARChromeActivity.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 90C392F01BB13AF100D59B76 /* ARChromeActivity.bundle */; };
 		FA9861A8163185A100F1BC17 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9861A7163185A100F1BC17 /* UIKit.framework */; };
 		FA9861AA163185A100F1BC17 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9861A9163185A100F1BC17 /* Foundation.framework */; };
 		FA9861AC163185A100F1BC17 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA9861AB163185A100F1BC17 /* CoreGraphics.framework */; };
@@ -32,12 +27,7 @@
 		90C392751BB131BE00D59B76 /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
 		90C392DB1BB1383900D59B76 /* ARChromeActivity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ARChromeActivity.h; sourceTree = "<group>"; };
 		90C392DC1BB1383900D59B76 /* ARChromeActivity.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ARChromeActivity.m; sourceTree = "<group>"; };
-		90C392DD1BB1383900D59B76 /* ARChromeActivity.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ARChromeActivity.png; sourceTree = "<group>"; };
-		90C392DE1BB1383900D59B76 /* ARChromeActivity@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@2x.png"; sourceTree = "<group>"; };
-		90C392DF1BB1383900D59B76 /* ARChromeActivity@2x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@2x~ipad.png"; sourceTree = "<group>"; };
-		90C392E01BB1383900D59B76 /* ARChromeActivity@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@3x.png"; sourceTree = "<group>"; };
-		90C392E11BB1383900D59B76 /* ARChromeActivity@3x~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity@3x~ipad.png"; sourceTree = "<group>"; };
-		90C392E21BB1383900D59B76 /* ARChromeActivity~ipad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ARChromeActivity~ipad.png"; sourceTree = "<group>"; };
+		90C392F01BB13AF100D59B76 /* ARChromeActivity.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ARChromeActivity.bundle; sourceTree = "<group>"; };
 		FA9861A3163185A100F1BC17 /* ChromeActivityDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChromeActivityDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9861A7163185A100F1BC17 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA9861A9163185A100F1BC17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -73,14 +63,9 @@
 		90C392DA1BB1383900D59B76 /* ARChromeActivity */ = {
 			isa = PBXGroup;
 			children = (
+				90C392F01BB13AF100D59B76 /* ARChromeActivity.bundle */,
 				90C392DB1BB1383900D59B76 /* ARChromeActivity.h */,
 				90C392DC1BB1383900D59B76 /* ARChromeActivity.m */,
-				90C392DD1BB1383900D59B76 /* ARChromeActivity.png */,
-				90C392DE1BB1383900D59B76 /* ARChromeActivity@2x.png */,
-				90C392DF1BB1383900D59B76 /* ARChromeActivity@2x~ipad.png */,
-				90C392E01BB1383900D59B76 /* ARChromeActivity@3x.png */,
-				90C392E11BB1383900D59B76 /* ARChromeActivity@3x~ipad.png */,
-				90C392E21BB1383900D59B76 /* ARChromeActivity~ipad.png */,
 			);
 			name = ARChromeActivity;
 			path = ../../ARChromeActivity;
@@ -194,15 +179,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				FA9861B2163185A100F1BC17 /* InfoPlist.strings in Resources */,
+				90C392F11BB13AF100D59B76 /* ARChromeActivity.bundle in Resources */,
 				FA9861BA163185A100F1BC17 /* Default.png in Resources */,
-				90C392E51BB1383900D59B76 /* ARChromeActivity@2x.png in Resources */,
-				90C392E81BB1383900D59B76 /* ARChromeActivity@3x~ipad.png in Resources */,
 				FA9861BC163185A100F1BC17 /* Default@2x.png in Resources */,
-				90C392E41BB1383900D59B76 /* ARChromeActivity.png in Resources */,
-				90C392E91BB1383900D59B76 /* ARChromeActivity~ipad.png in Resources */,
-				90C392E71BB1383900D59B76 /* ARChromeActivity@3x.png in Resources */,
 				FA9861BE163185A100F1BC17 /* Default-568h@2x.png in Resources */,
-				90C392E61BB1383900D59B76 /* ARChromeActivity@2x~ipad.png in Resources */,
 				90C392761BB131BE00D59B76 /* Launch Screen.xib in Resources */,
 				FAFC91031BAFF4680075BE44 /* Images.xcassets in Resources */,
 			);
